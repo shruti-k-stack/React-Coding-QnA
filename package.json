@@ -1,0 +1,15 @@
+{
+  "name": "react-coding-qna",
+  "version": "1.0.0",
+  "description": "This is a practice item by Shruti",
+  "license": "ISC",
+  "author": "Shruti Khandagiri",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}
