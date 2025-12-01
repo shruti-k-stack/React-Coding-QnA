@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Accordion from "./src/Components/Accordion";
-import "./src/styles/style.scss";
+import "./src/styles/accordion.scss";
+import AllInOne from "./src/Components/AllInOne";
 
 const AppLayout = () => {
-    return (
+  return (
     <div>
-        <h1> Hello World!</h1>
-        <Accordion />
+      <h1> Hello World!</h1>
+      <AllInOne />
     </div>
-    )
+  );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

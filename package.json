@@ -8,13 +8,18 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "format": "prettier --write .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.1",
     "parcel": "^2.16.1"
   },
   "dependencies": {
+    "prettier": "^3.7.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   }
