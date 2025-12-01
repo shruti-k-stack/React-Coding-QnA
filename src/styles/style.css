@@ -1,0 +1,15 @@
+.accordion-title {
+  background-color: #eee;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+}
+.accordion-content.active {
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  max-height: 0.875rem;
+}/*# sourceMappingURL=style.css.map */
