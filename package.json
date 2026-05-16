@@ -4,7 +4,7 @@
   "description": "This is a practice item by Shruti",
   "license": "ISC",
   "author": "Shruti Khandagiri",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
@@ -16,11 +16,16 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.1",
-    "parcel": "^2.16.1"
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "parcel": "^2.16.1",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^6.0.3"
   },
   "dependencies": {
     "prettier": "^3.7.3",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^6.30.3"
   }
 }
